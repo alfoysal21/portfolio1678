@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(12, 5, 20);
+    color: aliceblue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: aqua;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    color: rgb(12, 5, 20);
+}
+
+.navbar a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: default;
+    color: rgb(12, 5, 20);
+    margin-left: 40px;
+    transition: .4s;
+}
+
+.navbar a:hover{
+    color: rgb(0, 245, 163);
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.content{
+    max-width: 600px;
+}
+
+.content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content h3 span{
+    color: aqua;
+}
+.content h3:nth-of-type(2){
+    margin-bottom: 30px;
+}
+.content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px;
+}
+
+.content p{
+ font-size: 25px;
+}
+
+.social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    transition: .3s;
+}
+
+.social a:hover{
+    background: aqua;
+    color: rgb(12, 5, 20);
+}
+
+.ccv{
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 30px;
+    background: aqua;
+    text-decoration: none;
+    border: 2px solid rgb(12, 5, 20);
+    border-radius: 15px;
+    letter-spacing: 1px;
+    color: rgb(12, 5, 20);
+    margin: 4px;
+}
+
+.down a:hover{
+    background-color: rgb(12, 5, 20);
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 15px;
+
+}
+
+.more{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.more p{
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.more span a{
+    color: rgb(12, 5, 20);
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid aqua;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.more span a{
+    text-decoration: none;
+    color: rgb(12, 5, 20);
+}
+
+.more span a:hover{
+    background-color: rgb(12, 5, 20);
+    color: aqua;
+    cursor: pointer;
+}
+
+
